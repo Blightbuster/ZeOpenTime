@@ -18,3 +18,14 @@ ZeOpenTime is a simple to use yet powerful API to communicate with your [MyKrono
 
 ### 1.1.0
 - [0/42] Support for old 6E protocol
+
+# Support The Project
+### Implement Packets
+You can contribute to the project by implementing remaining packets. 
+Just lock at some already implemented ones like the TimeZone packet and go from there.
+
+### Make your own Project
+Make a project based on this API and therefor make the API more popular. Of cause 
+
+### Donate
+If you are not that tech-savvy you can of cause always [donate](https://paypal.me/MScheve) to fund the project.
