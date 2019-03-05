@@ -1,0 +1,10 @@
+com.blightstudios.zot
+com.blightstudios.zot.packet
+com.blightstudios.zot.packet.Extend
+com.blightstudios.zot.packet.MessagePush
+com.blightstudios.zot.packet.Pay
+com.blightstudios.zot.packet.ProductTest
+com.blightstudios.zot.packet.Setting
+com.blightstudios.zot.packet.Sport
+com.blightstudios.zot.packet.State
+com.blightstudios.zot.packet.User
