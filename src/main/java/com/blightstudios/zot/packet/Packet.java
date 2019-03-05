@@ -50,7 +50,6 @@ public abstract class Packet {
      * Converts a byte array into a packed
      *
      * @param rawPacket the raw bytes of the packet
-     * @return the packet
      */
     protected abstract void fromByteArray(byte[] rawPacket);
 
