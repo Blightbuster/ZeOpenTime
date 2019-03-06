@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * Extension of Byte ArrayList to provide additional functionality
  *
- * @author Moritz-Cassian Scheve
+ * @author Moritz Scheve
  */
 public class ByteSequence extends LinkedList<Byte> {
     private static final long serialVersionUID = 1L;
