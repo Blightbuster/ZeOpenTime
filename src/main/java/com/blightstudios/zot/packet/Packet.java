@@ -97,7 +97,19 @@ public abstract class Packet {
     protected static byte[] getData(byte[] rawPacket) {
         ByteSequence bSequence = new ByteSequence(rawPacket);
 
+        /*
+         * Set begin index to 5 for the following reasons:
+         * 1b packet start flag
+         * 1b command
+         * 1b action
+         * 2b data length
+         */
         int beginIndex = 5;
+
+        /*
+         * Set end index to packet.size - 1 for the following reason:
+         * 1b packet end flag
+         */
         int endIndex = bSequence.size() - 1;
 
         return bSequence.subSequence(beginIndex, endIndex).toByteArray();
