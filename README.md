@@ -25,7 +25,7 @@ You can contribute to the project by implementing remaining packets.
 Just lock at some already implemented ones like the TimeZone packet and go from there.
 
 ### Make your own Project
-Make a project based on this API and therefor make the API more popular. Of cause 
+Make a project based on this API and therefore make the API more popular.
 
 ### Donate
 If you are not that tech-savvy you can of cause always [donate](https://paypal.me/MScheve) to fund the project.
