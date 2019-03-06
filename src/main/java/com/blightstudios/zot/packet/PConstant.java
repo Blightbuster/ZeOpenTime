@@ -4,7 +4,6 @@ import java.util.UUID;
 
 /**
  * Protocol constants
- * <p>
  * These are mostly extracted from the ZeTime App
  *
  * @author Moritz Scheve
@@ -20,6 +19,7 @@ public interface PConstant {
     byte BIND_START_QR_CODE = 2;
     byte BIND_START_SET_UID = 0;
 
+    //region Old 6E protocl
     byte COMMAND_CODE_6E_DEVICE_BATTERY_POWER = 0;
     byte COMMAND_CODE_6E_DEVICE_DEVICE_TYPE = 2;
     byte COMMAND_CODE_6E_DEVICE_FIRMWARE_INFO = 8;
@@ -71,7 +71,9 @@ public interface PConstant {
     byte COMMAND_CODE_6E_PHONE_TIME_UNIT_DATE_BATTERY = 52;
     byte COMMAND_CODE_6E_PHONE_UPGRADE_MODE = 28;
     byte COMMAND_CODE_6E_PHONE_WATCH_ID = 4;
+    //endregion
 
+    // region Command codes
     byte COMMAND_CODE_ANALOG_MODE = 33;
     byte COMMAND_CODE_AUTO_HEART_RATE = 92;
     byte COMMAND_CODE_AUTO_SLEEP = 88;
@@ -221,7 +223,7 @@ public interface PConstant {
 
     byte COMMAND_CODE_WORK_MODE = 18;
     byte COMMAND_CODE_WRITE_WATCH_ID = -1;
-
+    // endregion
 
     byte CONTROL_DEVICE_SET_AVI_APPLICATION_CLOSE = 8;
     byte CONTROL_DEVICE_SET_AVI_APPLICATION_OPEN = 7;
